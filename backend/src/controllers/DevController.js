@@ -1,5 +1,6 @@
 const axios = require('axios')
 const Dev = require('../models/Dev')
+const parseStringAsArray = require('../utils/parseStringAsArray')
 
 // index, show, store, update, destroy
 
@@ -20,7 +21,7 @@ module.exports = {
             const api_github = await axios.get(`https://api.github.com/users/${ github_username }`)
             // Verifica se o nome existe, se não existir, utiliza o valor do login
             const { name = login, bio, avatar_url } = api_github.data
-            const techsArray = techs.split(',').map(tech => tech.trim())
+            const techsArray = parseStringAsArray(techs)
         
             const location = {
                 type: 'Point',
