@@ -12,6 +12,4 @@ mongoose.connect('mongodb+srv://valeria:reactValeria@radardev-i8z7q.mongodb.net/
 app.use(express.json())
 app.use(routes)
 
-
-
 app.listen(3333) 
