@@ -69,3 +69,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Criando projeto 'React'
 `yarn create react-app web`
+
+
+# Anotações
+- **Componente**: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação.
+- **Propriedade**: Informações que o componente PAI passa para o componente FILHO.
+- **Estado**: Informações mantidas pelo componente.
