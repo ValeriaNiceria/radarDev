@@ -74,4 +74,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 # Anotações
 - **Componente**: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação.
 - **Propriedade**: Informações que o componente PAI passa para o componente FILHO.
-- **Estado**: Informações mantidas pelo componente.
+- **Estado**: Informações mantidas pelo componente (Lembrar: imutabilidade).
