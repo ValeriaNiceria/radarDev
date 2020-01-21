@@ -10,6 +10,7 @@ mongoose.connect('mongodb+srv://valeria:reactValeria@radardev-i8z7q.mongodb.net/
     useUnifiedTopology: true
 })
 
+// app.use(cors({ origin: 'http://localhost:3000' }))
 app.use(cors())
 app.use(express.json())
 app.use(routes)
