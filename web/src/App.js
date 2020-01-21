@@ -2,6 +2,7 @@ import React from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 function App() {
   return (
@@ -35,7 +36,47 @@ function App() {
 
         </form>
       </aside>
-      <main></main>
+
+
+      <main>
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/25120695?s=460&v=4" alt="Valéria Nicéria"/>
+              <div className="user-info">
+                <strong>Valéria Nicéria</strong>
+                <span>R, Python, PHP, JavaScript</span>
+              </div>
+            </header>
+            <p>bio</p>
+            <a href="https://github.com/ValeriaNiceria">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/25120695?s=460&v=4" alt="Valéria Nicéria"/>
+              <div className="user-info">
+                <strong>Valéria Nicéria</strong>
+                <span>R, Python, PHP, JavaScript</span>
+              </div>
+            </header>
+            <p>bio</p>
+            <a href="https://github.com/ValeriaNiceria">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/25120695?s=460&v=4" alt="Valéria Nicéria"/>
+              <div className="user-info">
+                <strong>Valéria Nicéria</strong>
+                <span>R, Python, PHP, JavaScript</span>
+              </div>
+            </header>
+            <p>bio</p>
+            <a href="https://github.com/ValeriaNiceria">Acessar perfil no Github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
